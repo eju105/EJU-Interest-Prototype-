@@ -1,0 +1,76 @@
+body{
+	background 	: white;
+	margin 		: 0px;
+	padding 	: 0px;
+}
+
+#wrap{
+	width 	: 1024px;
+	margin  : 0 auto;
+	border 	: solid 1px black;
+}
+
+nav{
+	background-color: rgba(92,119,255,.85);
+	float 		: left;
+	width 		: 100%;
+}
+
+nav ul{
+	margin 		: 0px;
+	padding 	: 0px;
+	list-style 	: none;
+	float 		: left;
+	width 		: 100%;
+	border 		: solid 0px red;
+}
+
+nav ul li{
+	color 		: white;
+	text-align 	: center;
+	width 		: 20%;
+	float 		: left;
+	padding-top : 25px;
+	padding-bottom : 25px;
+	border 		: solid 0px red;
+}
+
+nav ul li:hover{
+	background 	: white;
+	color 		: black;
+}
+
+#banner{
+	background-image: url(https://az616578.vo.msecnd.net/files/responsive/cover/main/desktop/2016/01/04/635874696021261802-322988349_imgres.jpg);
+	height 		: 250px;
+	clear 		: both;
+}
+
+h1{
+	color: rgb(92,119,255);
+}
+
+.column{
+	width 	: 50%;
+	float 	: left;
+	background : white;
+	min-height : 60vh;
+}
+
+p{
+	font-weight: bold;
+	text-align: center;
+}
+
+#img{
+	position: relative;
+    left: 100px;
+}
+
+footer{
+	clear 		: both;
+	text-align 	:center;
+	background-color: rgba(92,119,255,.85);
+	font-size : 8pt;
+	font-weight : bold;
+}
